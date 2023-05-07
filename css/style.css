@@ -1,0 +1,63 @@
+.page_collection{
+    padding: 45px 0;
+}
+.page_collection .title{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: #000;
+    margin-bottom: 30px;
+}
+.page_collection .title span{
+    color: #79b530;
+}
+.page_collection .pageOuter{
+    border-radius: 5px;
+    box-shadow: 0px 3px 8px #0000005e;
+    max-width: 400px;
+    margin: auto;
+}
+.page_collection .pagethumb{
+    width: 100%;
+    border-bottom: 1px solid #cdcdcd;
+    height: 450px;
+    overflow: hidden;
+}
+.page_collection .pagethumb img{
+    object-fit: cover;
+    object-position: top;
+    height: 450px;
+    width: 100%;
+}
+.page_collection .pageOuter:hover .pagethumb img{
+    object-position: bottom;
+    transition: all 8s linear;
+}
+.page_collection .page_title h2{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.page_collection .page_links a{
+    color: #fff;
+    display: inline-block ;
+    height: 40px;
+    flex: 1;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #7a929e;
+}
+.page_collection .page_links a:nth-child(2){
+    background-color: #00a3ff;
+    margin-left: 20px;
+}
+@media screen and (max-width: 767.98px) {
+    .page_collection .pagethumb{
+        height: 350px;
+    }
+}
