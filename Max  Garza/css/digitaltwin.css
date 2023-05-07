@@ -1,0 +1,23 @@
+.digitalwin-banner {
+    background-image: url(../assets/digitaltwin/d-banner.png);
+    background-color: #000;
+}
+
+.digitalwin-banner::before {
+    content: none;
+}
+.digital-twin {
+    background: #000 url(../assets/digitaltwin/twin-bg.svg) no-repeat center center;
+    background-size: cover;
+}
+
+.digital-twin .container {
+    background: url(../assets/digitaltwin/twin.png) no-repeat center right;
+    background-size: 50%;
+    min-height: 100vh;
+}
+
+.our-service {
+    background: url(../assets/digitaltwin/service.png) no-repeat bottom center;
+    background-size: cover;
+}

@@ -1,0 +1,22 @@
+.vision-banner{
+    background-image: url(../assets/computer-vision/vision-banner.png);
+    background-position: right center;
+}
+.vision-banner::before{
+    content: none;
+}
+.vision-eye {
+    background: #000 url(../assets/digitaltwin/twin-bg.svg) no-repeat center center;
+    background-size: cover;
+}
+
+.vision-eye .container {
+    background: url(../assets/computer-vision/vision.png) no-repeat center right;
+    background-size: 30%;
+    min-height: 100vh;
+}
+
+.our-service {
+    background: url(../assets/computer-vision/bg-vision.png) no-repeat bottom center;
+    background-size: cover;
+}

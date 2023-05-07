@@ -1,0 +1,404 @@
+
+/* :root{
+    --bs-primary-color: #000;
+    --bs-white-color: white;
+    --bs-body-weight: 400;
+    --bs-bg-primary: #3b7f74;
+    --bs-bg-secondary: #ffc724;
+}
+body{
+} */
+/* a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0;
+}
+p{
+    color: var(--bs-white-color);
+} */
+
+/* Header Section  */
+header {
+    z-index: 99;
+    background-color: rgb(255 255 255 / 40%);
+
+}
+.header .navbar-brand img{
+    width: 113px;
+}   
+.header .navbar-nav .nav-item{
+    padding: 5px 15px;
+    width: fit-content;
+    align-items: ce;
+
+}
+.header .navbar-nav .nav-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;  
+    color: #000000;
+}
+.header .navbar-nav .nav-link.contact-us{
+    padding: 14px;
+    color: #fff;
+    border: 1px solid #ED1C24;
+    background: #ED1C24;
+    border-radius: 100px;
+}
+.header .navbar-nav .nav-link.contact-us:hover{
+    background: transparent;
+    border: 1px solid #ED1C24;
+}
+.header .navbar-nav .nav-link:hover{
+    opacity: 1;
+    color: #ED1C24;
+}
+.header .navbar-nav .nav-item.active .nav-link {
+    font-weight: 600;
+    opacity: 1;
+    color: #ED1C24;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.header .navbar-nav .nav-item.active .nav-link.contact-us {
+    background-color: transparent;
+}
+/* .offcanvas{
+    background: var(--bs-bg-primary);
+} */
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* .navbar .btn-close {
+    filter: invert(95%) sepia(95%) saturate(1%) hue-rotate(96deg) brightness(104%) contrast(100%);
+    opacity: .8;
+} */
+
+
+/* Banner Section  */
+ 
+.banner{    
+    padding: 90px 0 200px;
+    background: url(../images//Mask\ group.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.banner-content{
+    padding: 240px 0 220px;
+    position: relative;
+}
+.banner-content .banner_img1{
+    width: 220px;
+    position: absolute;
+    top: 120px;
+    left: -20px;
+}
+.banner .banner_img2{
+    position: absolute;
+    width: 78px;
+    top: 50px;
+    right: 40px;
+}
+.banner .banner_img3{
+    width: 57px;
+    bottom: 0;
+    left: 150px;
+    position: absolute;
+}
+.banner .banner-content h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+    max-width: 646px;
+}
+.banner .banner-content p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 20px;
+    max-width: 467px;
+}
+.banner .app_links img{
+    width: 184px;
+    height: 58px;
+    margin-top: 36px;
+}
+.banner .banner_img img{
+    width: 990px;
+    position: absolute;
+    right: -50px;
+    top: 20px;
+}
+
+
+/* Banner Section End  */
+
+/* We are Delivery */
+.we-care-delivery {
+    padding: 100px 0 200px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-48 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.h-48 span {
+    color: #ED1C24;
+}
+
+.f-20 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.slider-img {
+    background: #000000;
+    box-shadow: 0px 16px 32px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    min-height: 150px;
+}
+
+.f-18 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.f-14 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* Get Started Section  */
+
+.get_started{
+    padding: 265px 0 200px;
+    background: linear-gradient(104.19deg, #E8E8E8 1.89%, #C8C4C4 121.29%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+}
+.heading h2 span{
+    color: #ED1C24;
+}
+.heading p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+}
+.sec2_wrap .box{
+    height: 174px;
+    max-width: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D0CDCD;
+    box-shadow: 0px 16px 32px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    margin: auto;
+}
+.sec2_wrap .box img{
+    width: 60px;
+    height: 60px;
+}
+.sec2_wrap h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+    margin: 40px auto 0;
+    max-width: 266px;
+}
+
+/* We Care Your Privacy Section */
+.your-privacy {
+    background: #16161D;
+    padding: 240px 0 114px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy-box {
+    background: #292929;
+    box-shadow: 0px 16px 32px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    min-height: 300px;
+}
+
+/* Aurres Wallet Section  */
+.aurres-wallet{
+    padding: 100px 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aurres-wallet .img1{
+    position: absolute;
+    top: 100px;
+}
+.aurres-wallet .follow_us{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.aurres-wallet .follow_us .social_links p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.aurres-wallet .barcode .barcode_img{
+    margin: 30px auto 0;
+    background: #F0F0F0;
+    border-radius: 20px;
+    border: 10px solid #F0F0F0;
+    max-width: 222px;
+}
+.aurres-wallet .barcode .barcode_img img{
+    max-width: 194px;
+}
+
+/* Footer Section  */
+.footer{
+    background: #000 url(../images/footer.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 60px 0 30px;
+}
+.footer .about img{
+    width: 113px;
+}
+.footer h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer li{
+    padding: 5px 0;
+} 
+.footer li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.footer li a:hover{
+    color: var(--bs-bg-secondary);
+}
+.footer .subscribe h3{
+    font-weight: 600;
+    font-size: 17.6424px;
+    }
+.footer .subscribe input{
+    background: #ffffff26;
+    border-radius: 6px;
+    padding: 8px 10px;
+    border: none;
+    color: white;
+}
+.footer .subscribe input:focus{
+    outline: none;
+}
+.footer .subscribe button{
+    Font-weight: 600;
+    font-size: 15.4371px;
+    text-align: center;
+    color: #ED1C24;
+    padding: 10px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.footer .subscribe button:hover{
+    background-color: #cdcdcd;
+}
+::placeholder{
+    font-weight: 500;
+    font-size: 15.4371px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.85);
+    opacity: 0.8;
+}
+.footer .copyright p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+.footer hr{
+    color: #b2b2b2;
+}
+
+
+.slick-dots li button:before{
+    font-size: 60px;
+    opacity: .8;
+}
+.your-privacy .slick-dots li button:before{
+    font-size: 60px;
+    opacity: .4;
+    color: white;
+}
+.slick-dots li.slick-active button:before{
+    color: #ED1C24;
+    opacity: 1;
+}

@@ -20,7 +20,7 @@
 .page_collection .pagethumb{
     width: 100%;
     border-bottom: 1px solid #cdcdcd;
-    height: 450px;
+    height: 350px;
     overflow: hidden;
 }
 .page_collection .pagethumb img{

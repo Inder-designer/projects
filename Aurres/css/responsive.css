@@ -1,0 +1,189 @@
+@media(min-width: 991.98px){
+    header {
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        left: 0;
+        top: 0;
+        -webkit-transition: all ease-in-out 0.5s;
+        -moz-transition: all ease-in-out 0.5s;
+        transition: all ease-in-out 0.5s;
+        backdrop-filter: blur(10px);
+        background-color: rgb(255 255 255 / 40%);
+    }
+    .nav-up {
+        top: -76px;
+    }
+}
+
+@media(min-width: 767.98px){
+    .your-privacy .slick-track {
+        margin: 0 -20px;
+    }    
+    .privacy-content {
+        padding: 0 20px;
+    }
+}
+@media(min-width: 439.98px){
+    .care-slider .slick-track {
+        margin: 0 -10px;
+    }
+    .slider-content {
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 991.98px){
+    .h-48 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+@media(max-width: 767.98px){
+    .h-48 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+@media (max-width: 576px){
+    .h-48 {
+    font-size: 22px;
+    line-height: 35px;
+    }
+    .f-20{
+        font-size: 16px;
+    }
+}
+
+/* Header  */
+@media screen and (min-width: 1401px) {
+    .header .navbar-nav .nav-item{
+        padding: 5px 15px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .header .navbar-nav .nav-item{
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 1200px){
+     
+    .header .navbar-nav .nav-link{
+        font-size: 16px;
+        padding: 0;
+    }
+    .header .navbar-nav .nav-item{
+        padding: 5px 13px;
+    }
+    .header .login_btn {
+        padding: 5px 22px;
+        height: 36px;
+        line-height: 24px;
+    }
+} 
+@media screen and (max-width: 992px){
+    .header .navbar-nav .nav-item {
+    margin-bottom: 20px;
+    
+    }
+    .header ,.navbar-nav{
+        align-items: flex-start !important;
+    }
+}
+
+/* Banner  */
+@media screen and (min-width: 1199.8px) and (max-width: 1400px) {
+    .banner .banner_img img {
+        width: 880px;
+        position: absolute;
+        right: -40px;
+        top: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .banner .banner-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .banner .banner-content h1 {
+    font-size: 27px;
+    line-height: 38px;
+    }
+    .banner .banner-content p{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .banner .app_links img {
+        width: 135px;
+        height: 48px;
+    }
+    .banner .banner_img1{
+        width: 190px;
+    }
+    .banner .banner_img2{
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    .we-care-delivery{
+        background: none;
+        padding: 80px 0 100px;
+    }
+    .get_started {
+        padding: 80px 0 100px;
+        background: #E8E8E8;
+    }
+    .your-privacy {
+    padding: 80px 0 100px;
+    }
+    .aurres-wallet .img1 {
+        top: 40px;
+    }
+    .aurres-wallet {
+        padding: 190px 0 100px;
+    }
+    
+    .banner {
+        padding: 90px 0 100px;
+    }
+    .banner-content {
+        padding: 220px 0 0;
+    }
+} 
+
+/* Aurres Wallet  */
+@media screen and (max-width: 576px) {
+    .aurres-wallet .barcode .barcode_img img {
+        max-width: 124px;
+    }
+    .aurres-wallet .barcode .barcode_img {
+        max-width: 142px;
+    }
+    .aurres-wallet .barcode .store{
+        width: 120px;
+    }
+    .slick-slide{
+        padding: 0 10px;
+    }
+}
+
+/* Footer  */
+@media screen and (max-width: 991.98px) {
+    
+    .footer .footer_content{
+        padding: 0;
+    }
+    .footer{
+        padding: 60px 0 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .footer .subscribe input{
+        width: 60%;
+    }
+    
+}

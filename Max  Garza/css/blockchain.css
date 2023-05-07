@@ -1,0 +1,721 @@
+main{
+    background: #141619;
+}
+
+/* Banner Start */
+.banner{
+    background: url(../assets/blockchain/bannerBG.png) no-repeat top right;
+    background-size: contain;
+    padding: 200px 0 100px;
+}
+.banner::before{
+    background: none
+}
+.banner .f-24{
+    font-family: 'Inter';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 16px;
+}
+.f-68{
+    font-size: 64px;
+}
+.banner .f-68 span{
+ color: #818CF8;
+ 
+}
+.fillBtn{
+    font-family: 'Inter';
+    padding: 9.5px 16px;
+    background: linear-gradient(180deg, #878FE8 0%, #4CCCD0 100%);
+    border-radius: 20px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    transition: .2s;
+ }
+ .fillBtn:hover{
+    box-shadow: 0px 3.15px 15.75px rgba(99, 94, 249, 0.48);
+ }
+ .fillBtn span{
+    width: 16px;
+    height: 16px;
+    background-color: #191B26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+ }
+ .cstmBtn{
+    min-width: 150px;
+    font-family: 'Inter';   
+    padding: 9.5px 16px;
+    border-radius: 20px 0px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+ }
+ .cstmBtn::before{
+    border-radius: 20px 0 20px 0;
+    padding: 1.6px;
+ }
+ .banner .bottom{
+    margin-top: 96px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid;
+    border-image: radial-gradient(circle farthest-corner at center center, #4B74E6 0%, #8e54e92e 68%, #8d54e900 100%);
+    border-image-slice: 1;
+ }
+ .banner .bottom .f-16{
+    text-transform: capitalize;
+    color: rgba(131, 89, 232, 0.64);
+    margin-bottom: 32px;
+ }
+ .banner .bottom .cryptoLogo img{
+    height: 32px;
+ }
+/* Banner End */
+
+/* Meet Start */
+.meet{
+    background: url(../assets/blockchain/meetBG.png) no-repeat;
+    background-size: 65%;
+    background-position: center right;
+    padding: 120px 0;
+}
+.meet .f-20{
+    color: rgba(255, 255, 255, 0.64);
+}
+.cstmBtn2{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 24px;
+    color: #F1F5F9;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    border: none;
+    box-shadow: 4px 6px 61px rgba(99, 104, 231, 0.2);
+    border-radius: 8px;
+    transition: .2s;
+    text-transform: capitalize;
+}
+.cstmBtn2:hover{
+    box-shadow: 4px 6px 61px rgba(99, 104, 231, 0.404);
+}
+/* Meet End */
+
+.borderTopBot{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: radial-gradient(circle farthest-corner at center center, #4B74E6 0%, #8e54e92e 68%, #8d54e900 100%);
+    border-image-slice: 1;
+}
+
+/* Client Start */
+.client{
+    background: url(../assets/blockchain/clientBG.png) no-repeat;
+    background-size: 40% 100%;
+    background-position: 0 -120px;
+    padding: 120px 0;
+}
+.client_member{
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 9px 10px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(24px);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.client_member .client_thumb{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 115px 0px;
+    overflow: hidden;
+    box-shadow: 4px 9px 36px rgba(0, 0, 0, 0.25);
+}
+.client_member .client_thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.client_member .info{
+    padding: 22px 40px 22px 0;
+}
+.client_member .info .f-20{
+    line-height: 24px;
+}
+.client_member .info .position{
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.64);
+}
+.client_member .info .about{
+    line-height: 24px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+}
+/* Client End */
+
+/* Choose Start */
+.choose{
+    background: url(../assets/blockchain/chooseBG.png) no-repeat;
+    background-size: 70% 100%;
+    background-position: right -140px;
+    padding: 120px 0;
+}
+.choose .f-20{
+    font-family: 'Inter';
+    color: rgba(255, 255, 255, 0.64);
+}
+.choose .rightContent .box{
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 32px 24px;
+}
+.choose .rightContent .box .number{
+    background: linear-gradient(90deg, #4776E6 27.75%, #8E54E9 76.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+}
+.choose .rightContent .box .f-16{
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.64);
+}
+/* Choose End */
+
+/* Advantages Start */
+.advantages{
+    background: url(../assets/blockchain/advantagesBG.png) no-repeat;
+    background-size: 50% 100%;
+    background-position: left 40px;
+    padding: 120px 0;
+}
+.advantages .box{
+    padding: 64px;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 8px 9px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(16px);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.advantages .box .f-16{
+    color: rgba(255, 255, 255, 0.64);
+    font-family: 'Inter';
+    line-height: 28px;
+}
+.advantages .box img{
+    right: 0;
+}
+/* Advantages End */
+
+
+/* Why We’re Trusted Start */
+.trusted{
+    background: url(../assets/blockchain/trustedBG.png) no-repeat;
+    background-size: 70% 100%;
+    background-position: center right;
+    padding: 120px 0
+}
+.trusted .content .f-20{
+    color: rgba(255, 255, 255, 0.64);
+    font-family: 'Inter';
+    line-height: 32px;
+}
+/* Why We’re Trusted End */
+
+/* Plans Start */
+.plans{
+    background: url(../assets/blockchain/plansBG.png) no-repeat;
+    background-size: 60% 100%;
+    background-position: left top;
+    padding: 120px 0
+}
+.plans .box{
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12.5px);
+    border-radius: 8px;
+    padding: 66px 20px;
+    min-height: 654px;
+    position: relative;
+}
+.plans .slick-slide{
+    padding: 12px 16px;
+}
+.plans .box .planName{
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #F3F4F6;
+}
+.plans .box .price{
+    font-family: 'Inter';
+    font-size: 55px;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+.plans .box .price span{
+    font-size: 16px;
+}
+.plans .box ul{
+    margin: 24px 0 36px;
+}
+.plans .box ul li{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F1F5F9;
+    margin-bottom: 20px;
+}
+.plans .box ul .del{
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.4);
+}
+.plans .box .cstmBtn2{
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 66px;
+    border: 1px solid;
+    border-image: radial-gradient(circle farthest-corner at center center, #4B74E6 0%, #8e54e917 100%, #8d54e900 100%);
+    border-image-slice: 1;
+    background: transparent;
+    box-shadow: none;
+    filter: drop-shadow(4px 6px 61px rgba(99, 104, 231, 0.25));
+    border-radius: 8px;
+}
+.plans .box .cstmBtn2:hover{
+    background: linear-gradient(180deg, #878FE8 0%, #4CCCD0 100%);
+    box-shadow: 4px 6px 61px rgba(99, 104, 231, 0.2);
+    color: #000;
+}
+.plans .box .ribbon{
+    width: 70px;
+    height: 100px;
+    background: #A855F7;
+    top: -12px;
+    right: 25px;    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 12px;
+    text-align: center;
+}
+.plans .box .ribbon::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border-bottom: 12px solid #6B21A8;
+    border-left: 12px solid transparent;
+    left: -12px;
+    top: 0;
+}
+.plans .box .ribbon::after {
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    border-left: 35px solid #A855F7;
+    border-right: 35px solid #A855F7;
+    border-bottom: 30px solid transparent;
+    bottom: -30px;
+}
+/* Plans End */
+
+/* Last Section */
+.lastSec{
+    background: url(../assets/blockchain/lastBG.png) no-repeat;
+    background-size: 50% 100%;
+    background-position: right top;
+}
+.slider_item{
+    padding: 0 10px;
+} 
+.slider_item .box{
+    padding: 52px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(24px);
+    border-radius: 16px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+}
+.slider_item .item_inner{
+    height: 440px !important;
+}
+.slider_item .w-53{
+    width: 52%;
+    margin-right: 3%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.slider_item .w-53 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider_item .w-45{
+    width: 45%;
+}
+.slider_item .w-45 .h-100{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.slider_item .box .price{
+    font-size: 40px;
+}
+.slider_item .box p{
+    font-family: 'Inter';
+    text-transform: capitalize; 
+    color: rgba(255, 255, 255, 0.64);
+    line-height: 24px;
+}
+.slider_item .box2{
+    background: url(../assets/blockchain/sliderImg2.png);
+}
+.slider_item .box3{
+    background: url(../assets/blockchain/sliderImg4.png);
+}
+.slider_item .box4{
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%)
+}
+
+.blockchain .slick-dots li.slick-active button:before{
+    content: none;
+}
+.blockchain .slick-dots{
+    bottom: -40px;
+}
+.blockchain .slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.6;
+    background-color: #fff;
+}
+.blockchain .slick-dots li.slick-active button{
+    background-color: #4776E6;
+    width: 12px;
+    height: 12px;
+
+}
+
+.connect{
+    background: url(../assets/blockchain/bottomBG.png) no-repeat;
+    background-size: 100% 60%;
+    background-position: center bottom;
+}
+
+@media screen and (max-width:1399.98px) {
+    .choose .rightContent .box{
+        padding: 32px 14px;
+    }
+    .blockchain .f-36 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .advantages .box {
+        padding: 44px;
+    }
+    .slider_item .box .price {
+        font-size: 30px;
+    }
+    .slider_item .box {
+        padding: 22px 10px;
+    }
+    .slider_item .item_inner {
+        height: 330px !important;
+    }
+}
+@media screen and (max-width:1199.98px) {
+}
+@media screen and (max-width:991.98px) {
+    .banner .f-68 {
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .banner .f-24{
+        font-size: 20px;
+    }
+    .meet .img1{
+        width: 350px;
+    }
+    .advantages .box {
+        padding: 24px;
+    }
+    .blockchain .advantages .f-20 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600 !important;
+    }
+    .advantages .box .f-16 {
+        font-size: 14px;
+        line-height: 24px;
+    }    
+    .advantages .box img{
+        width: 64px;
+    }
+    .advantages .f-48 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .blockchain .f-36 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .choose .f-20 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .cstmBtn2 {
+        font-weight: 500;
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+    .blockchain .trusted .f-36 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .trusted .content .f-20{
+        line-height: 26px; 
+        font-size: 16px;
+    }
+    .plans .f-48 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width:767.98px) {
+    .banner .f-68 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .banner .f-24 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }  
+    .banner .bottom .cryptoLogo img {
+        height: 26px;
+    }
+    .blockchain .f-36 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .blockchain .f-20 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .cstmBtn2 {
+        font-weight: 400;
+        font-size: 13px;
+        padding: 10px 16px;
+    }
+    .blockchain .f-48 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .blockchain .info .about {
+        font-size: 13px;
+        font-weight: 400 !important;
+        line-height: 20px;
+    }
+    .client_member .info {
+        padding: 16px 20px 16px 0;
+    }
+    .client_member .client_thumb{
+        border-radius: 0px 0px 75px 0px;
+    }
+    .blockchain .advantages .f-48 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .trusted .img1{
+        width: 400px;
+    }
+    .plans .box ul li {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    .plans .box .price {
+        font-size: 45px;
+    }
+    .plans .box .ribbon{
+        font-size: 14px;
+        padding: 0 12px;
+        text-align: center;
+        line-height: 18px;
+        width: 64px;
+        height: 80px;
+    }
+    .plans .box .ribbon::after{
+        border-left: 32px solid #A855F7;
+        border-right: 32px solid #A855F7;
+        border-bottom: 20px solid transparent;
+        bottom: -20px;
+    }
+    .plans .box{
+        min-height: 100%;
+    }
+    .plans .box .cstmBtn2{
+        position: static;
+        width: 100%;
+    }
+    .blockchain .plans .f-48 {
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:575.98px) {
+    .banner .f-68 {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+    .banner .f-24 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .blockchain .f-16 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .banner .bottom .f-16 {
+        margin-bottom: 22px;
+    }
+    .banner .bottom .cryptoLogo img {
+        height: 22px;
+    }
+    .blockchain .f-36 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .client_member .info {
+        padding: 16px 20px;
+    }
+    .client_member{
+        max-width: 330px;
+        margin: auto;
+    }
+    .client_member .client_thumb{
+        height: 310px;
+    }
+    .blockchain .advantages .f-48 {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .choose .rightContent .box {
+        padding: 19px 12px;
+    }
+    .choose .rightContent .box .number{
+        font-size: 44px;
+        line-height: 44px;
+    }    
+    .blockchain .trusted .f-36 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .trusted .content .f-20 {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .blockchain .plans .f-48 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .slider_item .item_inner {
+        height: 100% !important;
+    }
+    .slider_item .w-53 {
+        width: 100%;
+    }
+    .slider_item .w-45 {
+        width: 100%;
+    }
+    .slider_item .box {
+        min-height: 136px;
+    }
+    .slider_item .item_inner{
+        max-width: 360px;
+        margin: auto;
+    }
+    .blockchain .f-48 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width:439.98px) {
+    .banner .f-68 {
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .fillBtn {
+        padding: 7px 16px;
+        border-radius: 16px 0px;
+        font-size: 12px;
+    }
+    .cstmBtn {
+        min-width: 130px;
+        padding: 7px 16px;
+        border-radius: 16px 0px;
+        font-size: 12px;
+    }
+    .banner .bottom .cryptoLogo img {
+        height: 16px;
+    }
+    .blockchain .f-36 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .blockchain .f-20 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .cstmBtn2 {
+        font-weight: 400;
+        font-size: 12px;
+        padding: 6px 10px;
+        border-radius: 5px;
+    }
+    .blockchain .advantages .f-48 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .advantages .box .f-16 {
+        font-size: 12px;
+        line-height: 22px;
+    }    
+    .blockchain .choose .f-16 {
+        font-size: 12px;
+    }
+    .plans .box ul li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .plans .box .price {
+        font-size: 35px;
+    }
+}

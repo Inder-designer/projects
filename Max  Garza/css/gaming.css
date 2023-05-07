@@ -1,0 +1,331 @@
+body{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) -22.39%, rgba(0, 0, 0, 0) 100%), #080D13;
+}
+/* Banner End */
+
+ /* Revolutionize section Start  */
+.revolutionize{
+    /* background:  linear-gradient(180deg, rgba(0, 0, 0, 0.5) -22.39%, rgba(0, 0, 0, 0) 100%), #080D13; */
+    padding: 40px 0 60px;
+}
+.revolutionize .wrap{
+    padding: 235px 0 0;
+    z-index: 1;
+}
+.revolutionize .wrap::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(180deg, #008FBF 0%, #0A14A0 28.13%, #AD0696 54.69%, #AE4706 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    height: 835px;
+    width: 835px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+.revolutionize h2{
+    background: linear-gradient(269.81deg, #008FBF 0.11%, #0614D7 27.95%, #AD0696 54.24%, #AE4706 99.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 68px;
+}
+.revolutionize h2 b{
+    font-weight: 600;
+}
+.revolutionize h2 span{
+    display: block;
+    background: linear-gradient(90.71deg, #008FBF 3.91%, #0D1CE3 30.82%, #AD0696 56.24%, #AE4706 99.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.revolutionize .content{
+    background: url(../assets/gaming/revolutionize.png) no-repeat center;
+    background-size: 500px;
+}
+.revolutionize .content .box{
+    text-align: start;
+    background: #FFFFFF;
+    border-radius: 7.875px;
+    padding: 8px;
+    height: 162px;
+    max-width: 268px;
+}
+.revolutionize .content .box2 {
+    margin: 80px 0 0 auto;
+    transform: translateX(180px);
+    height: 140px;
+}
+.revolutionize .content .box3{
+    margin-top: -40px;
+    transform: translateX(-120px);
+}
+.revolutionize .content .box4 {
+    margin: 20px 0 0 auto;
+    transform: translateX(180px);
+    height: 140px;
+}
+.revolutionize .content .box4 .cstmBtn{
+    color: #000;
+    padding: 13px 40px;
+    font-weight: 700;
+    font-size: 13.3875px;
+    line-height: 18px;
+    margin-top: 18px;
+}
+.revolutionize .content .box5{
+    margin: 0 0 0 auto;
+    transform: translate(70px, -50px);
+}
+.revolutionize .content .box p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    margin: 0;
+}
+.revolutionize .content .box p:first-child{
+    color: #5780F7;
+}
+ /* Revolutionize section End  */
+
+ /* Gameplay Start */
+ .gameplay{
+    padding: 120px 0 140px;
+ }
+ .gameplay button{
+    padding: 13px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.15px 15.75px rgba(99, 94, 249, 0.48);
+    border-radius: 25px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    margin-bottom: 40px;
+ }
+ .revolutionize .bgImg img{
+    position: absolute;
+ }
+ .revolutionize .bgImg .img1{
+    right: 200px;
+ }
+ .revolutionize .bgImg .img2{
+    bottom: 400px;
+    left: 30px;
+
+ }
+ /* Gameplay End */
+
+/* letsBuild Start */
+.letsBuild{
+    background:  url(../assets/gaming/letsBuild.png) no-repeat center; 
+    background-size: cover;
+    padding: 300px 0;
+}
+.letsBuild p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 642px;
+    margin-bottom: 20px;
+}
+/* letsBuild End */
+
+/* How Can you Play? Start */
+.howTo{
+    padding: 200px 0;
+}
+.howTo h3{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+    margin-bottom: 32px;
+}
+.howTo .box{
+    background: linear-gradient(180deg, rgba(120, 33, 235, 0.5) 0%, rgba(120, 33, 235, 0) 100%);
+    border-radius: 20px;
+    padding: 20px 20px 32px 20px ;
+}
+.howTo .box.even{
+    margin-top: 100px;
+}
+.howTo .box .number p{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    color: #D8B0FF;
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+.howTo .box .number span{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #090909 0%, #090909 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.howTo .box .number span img{
+    width: 18px;
+}
+.howTo .box h6{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-top: 22px;
+}
+.howTo .box p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.howTo .howTo_Slider .slick-slide{
+    padding: 0 10px;
+}
+.howTo_Slider .slick-dots li button::marker{
+    content: none;
+}
+.howTo_Slider .slick-dots li{
+    width: auto;
+    height: auto;
+}
+.howTo_Slider .slick-dots li.slick-active button{
+    background-color: #650ef1;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+}
+.howTo_Slider .slick-dots li button{
+    font-size: 0;
+    color: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .5;
+}
+/* How Can you Play? End */
+
+@media screen and (max-width:1399.98px) {
+    .revolutionize .bgImg .img1 {
+        right: 100px;
+    }
+}
+@media screen and (max-width: 1199.98px) {
+    .letsBuild{
+        padding: 200px 0;
+    }
+    .revolutionize .bgImg .img1 {
+        right: 60px;
+        width: 160px;
+    }
+    .revolutionize .bgImg .img2 {
+        bottom: 340px;
+        left: -20px;
+    }
+}
+ @media screen and (max-width: 991.98px) {
+    .revolutionize .wrap::before{
+        height: 695px;
+        width: 695px;
+    }
+    .revolutionize .content .box{
+        min-height: 160px;
+    }
+    .revolutionize .content .box2,
+    .revolutionize .content .box3,
+    .revolutionize .content .box4,
+    .revolutionize .content .box5{
+        transform: none;
+        margin: 0;
+    }
+    .revolutionize .content .box2,
+    .revolutionize .content .box4{
+        margin-left: auto;
+    }
+    .revolutionize .wrap {
+        padding: 165px 0 0;
+    }
+    .revolutionize h2{
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    .revolutionize .bgImg .img1 {
+        right: 30px;
+        width: 130px;
+    }
+ }
+ @media screen and (max-width: 767.98px) {
+    .revolutionize .wrap::before{
+        content: none;
+    }
+    .revolutionize .wrap {
+        padding: 40px 0 0;
+    }
+    .revolutionize h2 {
+        font-size: 34px;
+    }
+    .revolutionize .content{
+        background: none;
+    }
+    .gameplay {
+        padding: 120px 0 80px;
+    }
+    .letsBuild {
+        padding: 140px 0;
+    }
+    .letsBuild p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }   
+    .howTo .box.even{
+        margin-top: 0;
+    }
+ }
+ @media screen and (max-width: 575.98px) {
+    .revolutionize h2 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .revolutionize .content .box{
+        margin: auto;
+        max-width: 400px;
+        min-height: auto;
+        height: 100%;
+        padding: 20px 16px;
+    }
+    .gameplay button {
+        padding: 10px 30px;
+        border-radius: 15px 0px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .letsBuild p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .howTo h3 {
+        font-size: 28px;
+        line-height: 46px;
+    }
+ }

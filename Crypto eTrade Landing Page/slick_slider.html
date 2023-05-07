@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/slick_css.css">
+</head>
+<body>
+    <section class="slider">
+        <div class="container">
+            <div><img src="./images/bitmap.png" alt=""></div>
+            <div><img src="./images/bitmap_2.png" alt=""></div>
+            <div><img src="./images/bitmap_3.png" alt=""></div>
+            <div><img src="./images/bitmap_4.png" alt=""></div>
+            <div><img src="./images/bitmap_2.png" alt=""></div>
+            <div><img src="./images/bitmap_3.png" alt=""></div>
+            <div><img src="./images/bitmap_2.png" alt=""></div>
+            <div><img src="./images/bitmap_3.png" alt=""></div>
+            <div><img src="./images/bitmap_2.png" alt=""></div>
+            <div><img src="./images/bitmap_3.png" alt=""></div>
+            <div><img src="./images/bitmap_2.png" alt=""></div>
+            <div><img src="./images/bitmap_3.png" alt=""></div>
+        </div>
+    </section>
+    <section class="slider2 ">
+        <div class="container2">
+            <div class="slick-current slick-active slick-center"><img src="./images/small1.jpg" alt=""></div>
+            <div><img src="./images/small2.jpg" alt=""></div>
+            <div><img src="./images/small3.jpg" alt=""></div>
+            <div><img src="./images/small4.jpg" alt=""></div>
+            <div><img src="./images/small1.jpg" alt=""></div>
+            <div><img src="./images/small2.jpg" alt=""></div>
+            <div><img src="./images/small3.jpg" alt=""></div>
+            <div><img src="./images/small4.jpg" alt=""></div>
+        </div>
+    </section>
+
+
+    <section class="banner_slider ">
+        <div class="container3">
+            <div class="slick-current slick-active slick-center"><img src="./images/video3.png" alt=""></div>
+            <div><img src="./images/video2.png" alt=""></div>
+            <div><img src="./images/Thumbnail.png" alt=""></div>
+            <div><img src="./images/Tutorial 1.png" alt=""></div>
+            <div><img src="./images/Tutorial 2.png" alt=""></div>
+            <div><img src="./images/video1.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="banner_slider2 ">
+        <div class="container4 slider-for">
+            <div class="slick-current slick-active slick-center"><img src="./images/video3.png" alt=""></div>
+            <div><img src="./images/video2.png" alt=""></div>
+            <div><img src="./images/Thumbnail.png" alt=""></div>
+            <div><img src="./images/Tutorial 1.png" alt=""></div>
+            <div><img src="./images/Tutorial 2.png" alt=""></div>
+            <div><img src="./images/video1.png" alt=""></div>
+        </div>
+        <div class="container4 slider-nav">
+            <div class="slick-current slick-active slick-center"><img src="./images/video3.png" alt=""></div>
+            <div><img src="./images/video2.png" alt=""></div>
+            <div><img src="./images/Thumbnail.png" alt=""></div>
+            <div><img src="./images/Tutorial 1.png" alt=""></div>
+            <div><img src="./images/Tutorial 2.png" alt=""></div>
+            <div><img src="./images/video1.png" alt=""></div>
+        </div>
+    </section>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.container').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+            speed: 300, 
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            autoplay: true,
+            responsive: [
+                {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                }
+                },
+                {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+        });
+        $(document).ready(function(){
+        $('.container2').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+                }
+            ]
+        });
+        });
+        $(document).ready(function(){
+        $('.container3').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+        });
+        $(document).ready(function(){
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: true,
+                centerMode: true,
+                focusOnSelect: true
+            });
+        })
+    </script>
+</body>
+</html>

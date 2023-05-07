@@ -1,0 +1,134 @@
+main{
+    background: #000;
+}
+/* Banner */
+.banner{
+    background: url(../assets/warehousing/bg.png) no-repeat center -160px;
+    background-size: 100%;
+    padding: 125px 0 0;    
+    height: 100%;
+    min-height: 100vh;
+}
+.banner::before{
+    content: none;
+}
+.banner .imgOuter{
+    background: linear-gradient(113.59deg, rgba(218, 72, 242, 0.4) -1.52%, rgba(51, 0, 255, 0.265) 103.07%);
+    backdrop-filter: blur(7.5px);
+    border-radius: 16px;
+    padding: 36px 42px;
+    margin-bottom: 20px;
+}
+.banner .f-26{
+    font-size: 35px;
+}
+.banner .wrap ul{
+    margin: 34px 0;
+}
+.banner .wrap ul li{
+    width: 16px;
+    height: 16px;
+    margin: 0 12px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #878FE8 0%, #4CCCD0 100%);
+}
+.features {
+    padding: 40px 0 60px;
+}
+.features a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6daadd;
+}
+.features a img{
+    margin-left: 12px;
+    transition: .2s;
+}
+.features a:hover img{
+    transform: translateX(10px);
+}
+.features .content{
+    padding: 80px 0;
+}
+.features .content p.f-16 {
+    line-height: 24px;
+    padding: 0px 46px;
+}
+
+/* Sec2 Start */
+.sec2 .container{
+    padding: 100px 0 120px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sec2 .wrap{
+    background: linear-gradient(180deg, #878FE8 0%, #4CCCD0 100%);
+    border-radius: 15px;
+    padding: 0 0 130px 140px;
+}
+.sec2 .wrap .img1{
+    transform: translate(30px, -30px);
+}
+.cstmBtn2{
+    background: linear-gradient(180deg, #008FBF 0%, #0A14A0 28.13%, #AD0696 54.69%, #AE4706 100%);
+    border-radius: 20px 0px;
+    padding: 13px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+}
+.sec2 .wrap .btn{
+    background: #FFFFFF;
+    color: #000;
+    border-radius: 4px;
+    padding: 13px 30px;
+    font-weight: 400;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sec2 .content{
+    padding: 0 50px;
+    margin-top: -110px;
+}
+.sec2 .service-block{
+    background: #FFFFFF;
+    border-radius: 0;
+    padding: 25px 20px;
+    box-shadow: 3px 3px 15px #999999;
+    min-height: 342px;
+}
+.sec2 .service-block i{
+    background: linear-gradient(180deg, #008FBF 0%, #0A14A0 28.13%, #AD0696 54.69%, #AE4706 100%);
+    width: 60px;
+    height: 60px;
+}
+.sec2 .service-block h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #222D3A;
+}
+.sec2 .service-block p{
+    color: #666666;
+    line-height: 24px;
+}
+ 
+
+/* Partner Start */
+.partner .content{
+    padding-top: 80px;
+}
+.partner .content .box .inner{
+    padding-left: 52px;
+    min-height: 210px;
+}
+.partner .content .box:hover span{
+    color: #008FBF;
+    transition: .2s;
+}
+.partner .content .box:hover span{
+    color: #32555F;
+}
