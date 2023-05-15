@@ -1,0 +1,73 @@
+
+.what_we_do .sec2_left h2{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    color: var(--bs-bg-primary);
+    opacity: 0.7;
+}
+.heading{
+    font-weight: 700;
+    font-size: 48px;
+    position: relative;
+    line-height: 90px;
+    color: var(--bs-primary-color);
+    opacity: 0.7;
+    font-family: 'Gilroy';
+}
+.heading::after{
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 110px;
+    background-color: var(--bs-bg-primary);
+    bottom: 0;
+    left: 0;
+}
+.text{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.85);
+    opacity: 0.6;
+}
+.sec2_right h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4D4D4D;
+    line-height: 48px;
+    margin-bottom: 0;
+}
+.sec2_right li{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    color: rgba(0, 0, 0, 0.573);
+}
+::marker{
+    color: #4D4D4D;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 576px){
+    .heading {
+        font-size: 35px;
+        line-height: 80px;
+    }
+    .text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .sec2_right li {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .what_we_do .sec2_left h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

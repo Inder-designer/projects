@@ -1,0 +1,94 @@
+
+.wrapper{
+    background: var(--bs-bg-primary);
+    z-index: 666666;
+}
+.wrapper .navbar-brand img{
+    width: 240px;
+}   
+.wrapper .navbar-nav .nav-item{
+    padding: 5px 15px;
+    font-family:  'Inter', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.wrapper .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.8;
+    line-height: 21px;
+}
+.wrapper .navbar-nav .nav-link:hover{
+    opacity: 1;
+}
+.wrapper .navbar-nav .nav-link.active {
+    font-weight: 600;
+    opacity: 1;
+}
+.wrapper .login_btn{
+    background: var(--bs-bg-secondary);
+    padding: 5px 32px;
+    height: 46px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    color: var(--bs-bg-primary);
+}
+.wrapper .login_btn:hover{
+    background-color: #e4af10;
+    color: var(--bs-white-color);
+}
+.navbar-toggler {
+    border: none;
+}
+.offcanvas{
+    background: var(--bs-bg-primary);
+}
+.navbar-toggler-icon {
+    opacity: 1;
+    background-image: url(../images/menu.png);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .btn-close {
+    filter: invert(95%) sepia(95%) saturate(1%) hue-rotate(96deg) brightness(104%) contrast(100%);
+    opacity: .8;
+}
+@media screen and (min-width: 1401px) {
+    .wrapper .navbar-nav .nav-item{
+        padding: 5px 15px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .wrapper .navbar-nav .nav-item{
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .wrapper .navbar-brand img{
+        width: 190px;
+    }   
+    .wrapper .navbar-nav .nav-link{
+        font-size: 16px;
+        padding: 0;
+    }
+    .wrapper .navbar-nav .nav-item{
+        padding: 5px 13px;
+    }
+    .wrapper .login_btn {
+        padding: 5px 22px;
+        height: 36px;
+        line-height: 24px;
+    }
+} 
+@media screen and (max-width: 992px){
+    .wrapper .navbar-nav .nav-item {
+    margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 576px){
+    .wrapper .navbar-brand img{
+        width: 140px;
+    }  
+}

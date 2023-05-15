@@ -1,0 +1,162 @@
+.invest{
+    background: var(--bs-bg-primary);
+    margin-bottom: 150px;
+}
+.invest_wrap{
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+.invest_wrap h1{
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 92px;
+    color: var(--bs-white-color);
+}
+.invest_wrap p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.invest_wrap h2{
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--bs-white-color);
+    line-height: 30px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.invest_wrap h2::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: var(--bs-bg-secondary);
+    bottom: 0;
+    left: 0;
+}
+.invest_wrap li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--bs-white-color);
+    padding: 10px 0;
+}
+.invest_wrap ::marker{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--bs-white-color);
+}
+.invest_right .invest_right_wrap{
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(51, 61, 61, 0.8);
+}
+.invest_right h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--bs-white-color);
+}
+.invest_right h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282828;
+}
+.invest_right p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3D8278;
+    margin-bottom: 0;
+}
+.invest_right .invest_form label{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.invest_right .invest_form ::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.invest_right .invest_form input{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    padding: .8rem 1rem;
+}
+.invest_right .invest_form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.invest .invest_form .form-switch{
+    margin-left: 24px;    
+}
+.invest .invest_form .form-switch input{
+    margin-top: 20px;
+}
+.invest .invest_form .progress_bar label{
+    font-family: 'Michroma';
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.invest .invest_form .progress-bar{
+    background: var(--bs-bg-secondary);
+}
+.invest_right button{
+    background: var(--bs-bg-secondary);
+    border: none;
+    padding: 14px 55px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3B7F74;
+    border-radius: 8px;
+}
+.invest_right button:hover{
+    background-color: #e4af10;
+    color: var(--bs-white-color);
+}
+.form-switch .form-check-input:checked{
+    background-color: var(--bs-bg-secondary) !important;
+    border-color: var(--bs-bg-secondary);
+}
+.form-switch .form-check-input:focus {
+    background-image: url(../images/switch\ White.png);
+    border-color: transparent;
+}
+.form-switch .form-check-input {
+    background-image: url(../images/Ellipse\ 46.png);
+}
+@media screen and (max-width: 576px) {
+    .invest_wrap h1{
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .invest_wrap p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .invest_wrap h2 {
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+    .invest_wrap li {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .invest_right .invest_form label {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .invest_right .invest_form ::placeholder{
+        font-size: 16px;
+    }  
+    .invest_wrap {
+       padding-top: 90px;
+   }
+}

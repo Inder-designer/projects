@@ -1,0 +1,61 @@
+
+.usecase{
+    background: url(../images/Rectangle\ 84.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 15px;
+    position: relative;
+    margin-top: 40px;
+}
+.usecase_wrap{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.usecase .heading{
+    color: var(--bs-white-color);
+    opacity: 1;
+}
+.usecase .heading::after{
+    background-color: var(--bs-white-color);
+}
+.usecase img{
+    width: 88px;
+}
+.usecase p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.usecase a{
+    color: var(--bs-white-color);
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.usecase a img{
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+.usecase a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 1199.98px) {
+    .usecase{
+        background: var(--bs-bg-primary);
+    }
+    .usecase_wrap {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .usecase p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .usecase_wrap {
+        padding-top: 40px;
+    }
+    .usecase a{
+        font-size: 14px;
+    }
+    
+}
